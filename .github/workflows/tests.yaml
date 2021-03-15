@@ -9,8 +9,6 @@ jobs:
       fail-fast: false
       matrix:
         php: ['7.0', '7.1', '7.2', '7.3', '7.4', '8.0']
-        path:
-          - tests
 
     name: PHP ${{ matrix.php }} tests for ${{ matrix.path }}
     steps:
