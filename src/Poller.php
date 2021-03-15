@@ -95,7 +95,7 @@ class Poller
         $detectDeleted = false,
         $pollerName = 'default')
     {
-        #test
+        #!
         $this->fetcher       = $fetcher;
         $this->synchronizer  = $synchronizer;
         $this->entityManager = $em;
